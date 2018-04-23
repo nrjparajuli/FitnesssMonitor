@@ -28,6 +28,4 @@ Fitness Monitor is an Android application that users can use to track their dail
     - Holds constant values used in all class files
     
 # Screenshots
-![Alt text](Screens/Welcome.jpg?raw=true "Enter name and Choose match format")
-![Alt text](Capture2.PNG?raw=true "Record points")
-![Alt text](Capture3.PNG?raw=true "View Stats")
+<img src="Screens/Welcome.jpg" width="40%">
