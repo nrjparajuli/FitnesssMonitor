@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fitness Monitor</string>
+    <string name="welcome">Welcome to the Fitness Monitor! Using this application, you will be able to keep track of your daily activities like walking, jogging, sitting, standing, walking upstairs and walking downstairs. Make to sure to have the phone in your front pocket so as not to adversely affect recognition accuracy. </string>
+    <string name="buttons">\nPress on the start button below to start monitoring your fitness. Pressing the button means that the application will begin gathering data from the accelerometer (even in background). Press stop to stop. It is recommended that you press start after you wake up and press stop before you go to bed every day.\n</string>
+    <string name="morebtns">\nPress on the TABLE button below to view activities and their corresponding confidence in real-time. Similarly, press on the STATISTICS button to view your fitness statistics over different periods of time.\n</string>
+    <string name="disclaimer">\nDisclaimer: This application has only been tested on HTC One M7. The creator of this application cannot be held liable for any harm caused to your device during the use of this application.</string>
+    <string name="downstairs">Downstairs</string>
+    <string name="jogging">Jogging</string>
+    <string name="sitting">Sitting</string>
+    <string name="standing">Standing</string>
+    <string name="upstairs">Upstairs</string>
+    <string name="walking">Walking</string>
+    <string name="stats">Statistics</string>
+    <string name="table">Table</string>
+    <string name="instruction">Select a time period below and tap the screen to view how you spent your time.</string>
+</resources>

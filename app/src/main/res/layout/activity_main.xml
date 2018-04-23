@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.nirajparajuli0.fitnessmonitoring.MainActivity"
+    android:background="@drawable/runner"
+    android:backgroundTint="#8FFFFFFF"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttons"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/start"
+            android:onClick="startAR"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="15dp"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/stop"
+            android:onClick="stopAR"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/morebtns"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/viewConfidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/table"
+            android:onClick="viewTable"
+            android:layout_alignParentLeft="true"/>
+
+
+        <Button
+            android:id="@+id/viewStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/stats"
+            android:onClick="viewStats"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disclaimer"
+            android:textSize="8sp"/>
+    </LinearLayout>
+
+</LinearLayout>
