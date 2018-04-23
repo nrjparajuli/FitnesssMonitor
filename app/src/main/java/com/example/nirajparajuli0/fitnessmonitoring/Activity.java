@@ -29,25 +29,25 @@ public class Activity {
         return uid;
     }
 
-    public void setUid(int uid) {
-        this.uid = uid;
-    }
+//    public void setUid(int uid) {
+//        this.uid = uid;
+//    }
 
     public long getStartTimestamp() {
         return startTimestamp;
     }
 
-    public void setStartTimestamp(int startTimestamp) {
-        this.startTimestamp = startTimestamp;
-    }
+//    public void setStartTimestamp(int startTimestamp) {
+//        this.startTimestamp = startTimestamp;
+//    }
 
     public String getActivityType() {
         return activityType;
     }
 
-    public void setActivityType(String activity) {
-        this.activityType = activity;
-    }
+//    public void setActivityType(String activity) {
+//        this.activityType = activity;
+//    }
 
     public int getDuration() {
         return duration;
